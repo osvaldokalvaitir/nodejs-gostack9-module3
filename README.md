@@ -26,6 +26,8 @@ Aplicação usando Node.js, Express, Nodemon e Sucrase.
 
   - [Bibliotecas](#bibliotecas)
 
+  - [Ferramentas](#ferramentas)
+
 ## Desenvolvimento
 
 ### Configuração do Ambiente
@@ -49,3 +51,11 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
 
 - [Sucrase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sucrase.md)
+
+### Ferramentas
+
+- [Docker](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/docker.md)
+
+  - Imagem do PostgreSQL: [postgres](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/postgres.md)
+
+- [Postbird](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/postgresql/postbird.md)
