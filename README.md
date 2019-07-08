@@ -46,9 +46,17 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Bibliotecas
 
+- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
+
+- [eslint-config-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-prettier.md)
+
+- [eslint-plugin-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-prettier.md)
+
 - [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
 
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
+
+- [Prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prettier.md)
 
 - [Sucrase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sucrase.md)
 
