@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação usando Node.js, Express, Nodemon e Sucrase.
+Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg e pg-hstore.
 
 ## Índice
 
@@ -25,6 +25,8 @@ Aplicação usando Node.js, Express, Nodemon e Sucrase.
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
+
+  - [APIs](#apis) 
 
   - [Ferramentas](#ferramentas)
 
@@ -73,6 +75,21 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Sucrase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sucrase.md)
 
 - [Yup](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/yup.md)
+
+### APIs
+
+- **Interna**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Adiciona novos usuários
+      - Edita dados de usuários existentes
+
+    - Sessões
+
+      - Adiciona novas sessões
 
 ### Ferramentas
 
