@@ -1,16 +1,16 @@
-# Node - Módulo 2 (Novo)
+# Node - Módulo 3 (Novo)
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/node-modulo2-novo/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/node-modulo2-novo.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/node-modulo2-novo.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/node-modulo2-novo.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/node-modulo2-novo.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/node-modulo2-novo.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/node-modulo2-novo.svg?color=blueviolet)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/node-modulo3-novo/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/node-modulo3-novo.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/node-modulo3-novo.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/node-modulo3-novo.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/node-modulo3-novo.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/node-modulo3-novo.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/node-modulo3-novo.svg?color=blueviolet)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg e pg-hstore.
+Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore e Multer.
 
 ## Índice
 
@@ -60,6 +60,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Json Web Token](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jsonwebtoken.md)
 
+- [Multer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/multer.md)
+
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
 
 - [pg](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/pg.md)
@@ -90,6 +92,10 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
     - Sessões
 
       - Adiciona novas sessões
+
+    - Arquivos
+
+      - Adiciona novos arquivos
 
 ### Ferramentas
 
