@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore, Multer e date-fns.
+Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore, Multer, date-fns e Mongoose.
 
 ## Índice
 
@@ -62,6 +62,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Json Web Token](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jsonwebtoken.md)
 
+- [Mongoose](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/mongoose.md)
+
 - [Multer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/multer.md)
 
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
@@ -102,6 +104,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Ferramentas
 
 - [Docker](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/docker.md)
+
+  - Imagem do MongoDB: [mongo](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/mongo.md)
 
   - Imagem do PostgreSQL: [postgres](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/postgres.md)
 
