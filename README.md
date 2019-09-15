@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore, Multer, date-fns, Mongoose, Nodemailer, Mailtrap, Express Handlebars, Sentry, Youch e dotenv.
+Aplicação GoBarber usando Node.js, Express, Multer, date-fns, Mongoose, Bee-Queue, Nodemailer, Express Handlebars, Youch, dotenv, Mailtrap e Sentry.
 
 ## Índice
 
@@ -20,7 +20,11 @@ Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier
 
   - [Instalação do Projeto](#instalação-do-projeto)
 
+  - [Configuração das Variáveis de Ambiente](#configuração-das-variáveis-de-ambiente)
+
   - [Execução do Projeto](#execução-do-projeto)
+
+  - [Execução do Ouvinte de Fila](#execução-do-ouvinte-de-fila)
 
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
@@ -40,9 +44,17 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
+### Configuração das Variáveis de Ambiente
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md) e siga `Configuração de Variáveis de Ambiente`.
+
 ### Execução do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento`.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento` ou `Execução de Projeto para Produção`.
+
+### Execução do Ouvinte de Fila
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bee-queue.md) e siga `Execução de Ouvinte de Fila`.
 
 ## Utilizados no Projeto
 
@@ -103,6 +115,29 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - **Interna**
 
   - **Rotas**
+
+    - Prestadores de serviços
+
+      - Lista todos os prestadores de serviços
+
+    - Compromissos
+
+      - Lista todos os compromissos de um prestador
+      - Adiciona novos compromissos
+      - Cancela compromissos existentes
+
+    - Agenda
+
+      - Lista todos os compromissos de um prestador e de uma data
+
+    - Disponíveis
+
+      - Lista todos os horários disponíveis ou não de um prestador e de uma data
+
+    - Notificações
+
+      - Lista todas as notificações de um prestador
+      - Edita dados de notificações existentes
 
     - Usuários
 
