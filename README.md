@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore, Multer, date-fns, Mongoose, Nodemailer, Mailtrap, Express Handlebars e Express Handlebars plugin for Nodemailer.
+Aplicação GoBarber usando Node.js, Express, Nodemon, Sucrase, ESLint, Prettier, Sequelize, Json Web Token, bcrypt.js, Yup, pg, pg-hstore, Multer, date-fns, Mongoose, Nodemailer, Mailtrap, Express Handlebars, Sentry e Youch.
 
 ## Índice
 
@@ -48,6 +48,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Bibliotecas
 
+- [@sentry/node](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@sentry-node.md)
+
 - [bcrypt.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bcryptjs.md)
 
 - [Bee-Queue](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bee-queue.md)
@@ -65,6 +67,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Express Handlebars](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express-handlebars.md)
 
 - [Express Handlebars plugin for Nodemailer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemailer-express-handlebars.md)
+
+- [ExpressJS Async Errors](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express-async-errors.md)
 
 - [Json Web Token](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jsonwebtoken.md)
 
@@ -87,6 +91,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [sequelize-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sequelize-cli.md)
 
 - [Sucrase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sucrase.md)
+
+- [Youch](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/youch.md)
 
 - [Yup](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/yup.md)
 
@@ -124,3 +130,5 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [MongoDB Compass Community](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/mongodb/mongodb-compass-community.md)
 
 - [Postbird](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/postgresql/postbird.md)
+
+- [Sentry](https://github.com/osvaldokalvaitir/projects-settings/blob/master/error/sentry.md)
