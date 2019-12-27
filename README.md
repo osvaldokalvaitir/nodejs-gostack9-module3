@@ -124,7 +124,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
     - Compromissos
 
-      - Lista todos os compromissos de um prestador
+      - Lista todos os compromissos
       - Adiciona novos compromissos
       - Cancela compromissos existentes
 
