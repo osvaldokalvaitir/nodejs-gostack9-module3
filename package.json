@@ -1,8 +1,8 @@
 {
-  "name": "node-modulo3-novo",
+  "name": "nodejs-modulo3-novo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/osvaldokalvaitir/node-modulo3-novo",
+  "repository": "https://github.com/osvaldokalvaitir/nodejs-modulo3-novo",
   "author": "Osvaldo Kalvaitir Filho <osvaldokalvaitir@outlook.com>",
   "license": "MIT",
   "scripts": {
