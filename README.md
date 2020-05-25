@@ -1,16 +1,16 @@
-# Node - Módulo 3 (Novo)
+# Node.js - Módulo 3 (Novo)
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/node-modulo3-novo/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/node-modulo3-novo.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/node-modulo3-novo.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/node-modulo3-novo.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/node-modulo3-novo.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/node-modulo3-novo.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/node-modulo3-novo.svg?color=blueviolet)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/nodejs-modulo3-novo/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/nodejs-modulo3-novo.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/nodejs-modulo3-novo.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=blueviolet)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnode-modulo3-novo%2Fmaster%2FInsomnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnodejs-modulo3-novo%2Fmaster%2FInsomnia.json)
 
 Aplicação GoBarber usando Node.js, Express, Multer, date-fns, Mongoose, Bee-Queue, Nodemailer, Express Handlebars, Youch, dotenv, Mailtrap e Sentry.
 
