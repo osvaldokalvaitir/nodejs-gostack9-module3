@@ -1,177 +1,66 @@
-# Node.js - Módulo 3 (Novo)
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/nodejs-modulo3-novo/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/nodejs-modulo3-novo.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/nodejs-modulo3-novo.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/nodejs-modulo3-novo.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  Node.js - GoStack 9 Module 3
+</h3>
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnodejs-modulo3-novo%2Fmaster%2FInsomnia.json)
+<p align="center">
+  :barber: GoBarber Application using Node.js, Express, Multer, date-fns, Mongoose, Bee-Queue, Nodemailer, Express Handlebars, Youch, dotenv, Insomnia, Docker, MongoDB Compass Community, Postbird, Mailtrap and Sentry
+</p>
 
-Aplicação GoBarber usando Node.js, Express, Multer, date-fns, Mongoose, Bee-Queue, Nodemailer, Express Handlebars, Youch, dotenv, Mailtrap e Sentry.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-gostack9-module3.svg?color=00A83A">
 
-## Índice
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-gostack9-module3.svg?color=00A83A">
 
-- [Desenvolvimento](#desenvolvimento)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+<p align="center">
+  <a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração das Variáveis de Ambiente](#configuração-das-variáveis-de-ambiente)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+Open terminal:
 
-  - [Execução do Ouvinte de Fila](#execução-do-ouvinte-de-fila)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/nodejs-gostack9-module3
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+# Entry in folder
+cd nodejs-gostack9-module3
 
-  - [Bibliotecas](#bibliotecas)
+# Install deps with npm or yarn
+npm install | yarn
 
-  - [APIs](#apis) 
+# Make a copy of the .env.example file, rename it to .env and change the variables according to your environment.
 
-  - [Ferramentas](#ferramentas)
+# Launch the app with npm or yarn
+npm dev | yarn dev
 
-## Desenvolvimento
+# Run queue listener with npm or yarn
+npm queue | yarn queue
+```
 
-### Configuração do Ambiente
+Click to learn more about the tools used: [Insomnia](https://github.com/osvaldokalvaitir/awesome/blob/main/src/api-clients/insomnia/insomnia.md), [Docker](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/docker.md), [MongoDB Docker Image mongo](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/mongo.md),  [PostgreSQL Docker Image postgres](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/postgres.md), [Redis Docker Image redis:alpine](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/redis-alpine.md), [MongoDB Compass Community](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/mongodb/mongodb-compass-community.md), [Postbird](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/postgresql/postbird.md), [Mailtrap](https://github.com/osvaldokalvaitir/awesome/blob/main/src/emails/mailtrap.md), [Sentry](https://github.com/osvaldokalvaitir/awesome/blob/main/src/errors/sentry.md).
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fosvaldokalvaitir%2Fnodejs-gostack9-module3%2Fmain%2FInsomnia.json)
 
-### Instalação do Projeto
+## :memo: License
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Configuração das Variáveis de Ambiente
+---
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md) e siga `Configuração de Variáveis de Ambiente`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento` ou `Execução de Projeto para Produção`.
-
-### Execução do Ouvinte de Fila
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bee-queue.md) e siga `Execução de Ouvinte de Fila`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@sentry/node](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@sentry-node.md)
-
-- [bcrypt.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bcryptjs.md)
-
-- [Bee-Queue](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bee-queue.md)
-
-- [CORS](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/cors.md)
-
-- [date-fns](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/date-fns.md)
-
-- [dotenv](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md)
-
-- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [eslint-config-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-prettier.md)
-
-- [eslint-plugin-prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-prettier.md)
-
-- [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
-
-- [Express Handlebars](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express-handlebars.md)
-
-- [Express Handlebars plugin for Nodemailer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemailer-express-handlebars.md)
-
-- [ExpressJS Async Errors](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express-async-errors.md)
-
-- [Json Web Token](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jsonwebtoken.md)
-
-- [Mongoose](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/mongoose.md)
-
-- [Multer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/multer.md)
-
-- [Nodemailer](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemailer.md)
-
-- [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
-
-- [pg](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/pg.md)
-
-- [pg-hstore](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/pg-hstore.md)
-
-- [Prettier](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prettier.md)
-
-- [Sequelize](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sequelize.md)
-
-- [sequelize-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sequelize-cli.md)
-
-- [Sucrase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/sucrase.md)
-
-- [Youch](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/youch.md)
-
-- [Yup](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/yup.md)
-
-### APIs
-
-- **Interna**
-
-  - **Rotas**
-
-    - Prestadores de serviços
-
-      - Lista todos os prestadores de serviços
-
-    - Compromissos
-
-      - Lista todos os compromissos
-      - Adiciona novos compromissos
-      - Cancela compromissos existentes
-
-    - Agenda
-
-      - Lista todos os compromissos de um prestador e de uma data
-
-    - Disponíveis
-
-      - Lista todos os horários disponíveis ou não de um prestador e de uma data
-
-    - Notificações
-
-      - Lista todas as notificações de um prestador
-      - Edita dados de notificações existentes
-
-    - Usuários
-
-      - Adiciona novos usuários
-      - Edita dados de usuários existentes
-
-    - Sessões
-
-      - Adiciona novas sessões
-
-    - Arquivos
-
-      - Adiciona novos arquivos
-
-### Ferramentas
-
-- [Docker](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/docker.md)
-
-  - Imagem do MongoDB: [mongo](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/mongo.md)
-
-  - Imagem do PostgreSQL: [postgres](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/postgres.md)
-
-  - Imagem do Redis: [redis:alpine](https://github.com/osvaldokalvaitir/projects-settings/blob/master/virtualization/docker/images/redis-alpine.md)
-
-- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api-client/insomnia.md)
-
-- [Mailtrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/email/mailtrap.md)
-
-- [MongoDB Compass Community](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/mongodb/mongodb-compass-community.md)
-
-- [Postbird](https://github.com/osvaldokalvaitir/projects-settings/blob/master/database/postgresql/postbird.md)
-
-- [Sentry](https://github.com/osvaldokalvaitir/projects-settings/blob/master/error/sentry.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
